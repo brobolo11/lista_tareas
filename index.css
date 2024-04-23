@@ -1,0 +1,61 @@
+body{
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 50px;
+}
+.contenedor{
+    margin-top: 10px;
+    background-color: rgb(245, 202, 150);
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 15px;
+}
+.cabecera{
+    width: 100%;
+    display: flex;
+    gap: 20%;
+}
+.escribirTarea{
+    display: flex;
+    justify-content: left;
+    margin-left: 5%;
+    width: 50%;
+    padding-right: 20%;
+}
+.boton{
+    width: 20%;
+    margin-right: 5%;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.tarea{
+    display: flex;
+    width: 95.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    align-items: center;
+    border-radius: 7px;
+}
+.textotarea{
+    width: 70%;
+    border-radius: 5px;
+    padding-left: 1%;
+}
+.botones{
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+    gap: 10%;
+    padding: 1%;
+}
+.colorboton{
+    background-color: rgb(121, 223, 121);
+}
